@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // Contoh penggunaan `var`
+function testVar() {
+    if (true) {
+        var x = 10; 
+        console.log("Inside if (var):", x); 
+    }
+    console.log("Outside if (var):", x); 
+}
+testVar();
+
+// Contoh penggunaan `let`
+function testLet() {
+    if (true) {
+        let y = 20; 
+        console.log("Inside if (let):", y); 
+    }
+}
+testLet();
+
+// Contoh penggunaan `const`
+function testConst() {
+    if (true) {
+        const z = 30;
+        console.log("Inside if (const):", z); 
+    }
+}
+testConst();
+const person = { name: "INGGIT" };
+person.name = "GIT"; 
+console.log("Modified const object:", person);
+</script>
+</body>
+</html>
